@@ -419,7 +419,7 @@ p+p {
 	display: inline-block;
 	width: 8px;
 	height: 10px;
-	background: url(svg/expand.svg);
+	background: url(../svg/expand.svg);
 	margin-right: 16px;
 	margin-left: 10px;
 }
