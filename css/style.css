@@ -218,7 +218,7 @@ p+p {
 	line-height: 40px;
 	letter-spacing: -0.6px;
 	margin: 0;
-	background: url(/svg/highlight.svg) no-repeat;
+	background: url(../svg/highlight.svg) no-repeat;
 }
 
 .header__title {
