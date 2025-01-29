@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Сервис CPS</title>
+</head>
+
+<body>
+	<div class="page">
+		<nav class="toolbar page__toolbar page__padding">
+			<ul class="toolbar toolbar__open">
+				<li>
+					<button class="button">
+						<img class="button__icon" src="svg/burger.svg" alt="Иконка меню">
+					</button>
+				</li>
+				<li>
+					<a class="logo toolbar__logo" href="#">
+						<img class="logo__img" width="96" height="50" src="svg/logo.svg" alt="Логотип CPS">
+					</a>
+				</li>
+			</ul>
+			<ul class="toolbar toolbar__user">
+				<li>
+					<button class="button">
+						<img class="button__icon" src="svg/call.svg" alt="Заказать звонок">
+					</button>
+				</li>
+				<li>
+					<button class="button">
+						<img class="button__icon" src="svg/chat.svg" alt="Открыть чат">
+					</button>
+				</li>
+				<li>
+					<button class="button">
+						<img class="button__icon" src="svg/profile.svg" alt="Профиль пользователя">
+					</button>
+				</li>
+			</ul>
+			<ul class="toolbar toolbar__service">
+				<li>
+					<button class="button">
+						<img class="button__icon" src="svg/repair.svg" alt="Оставить заявку">
+					</button class="button">
+				</li>
+				<li>
+					<button class="button">
+						<img class="button__icon" src="svg/checkstatus.svg" alt="Статус заявки">
+					</button>
+				</li>
+			</ul>
+		</nav>
+
+		<header class="header">
+			<div class="header__group">
+				<h2 class="title header__title page__padding">Услуги и сервисы</h2>
+				<nav class="header__toolbar page__padding">
+					<ul class="toolbar toolbar__header">
+						<li>
+							<button class="button">
+								<span class="button__caption">Оставить заявку</span>
+								<img class="button__icon" src="svg/repair.svg" alt="Оставить заявку">
+							</button class="button">
+						</li>
+						<li>
+							<button class="button">
+								<span class="button__caption">Статус ремонта</span>
+								<img class="button__icon" src="svg/checkstatus.svg" alt="Статус заявки">
+							</button>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<nav class="header__nav">
+				<ul class="menu header__menu page__padding">
+					<li>
+						<a class="header__link header__link--selected" href="#">Ремонтируемые бренды</a>
+					</li>
+					<li>
+						<a class="header__link" href="#">Дополнительные услуги</a>
+					</li>
+					<li>
+						<a class="header__link" href="#">Цены на услуги</a>
+					</li>
+					<li>
+						<a class="header__link" href="#">Адреса сервисных центров</a>
+					</li>
+					<li>
+						<a class="header__link" href="#">Специальные цены</a>
+					</li>
+					<li>
+						<a class="header__link" href="#">Отзывы</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="main">
+			<section class="about main__about">
+				<div class="about__article">
+					<div class="about__text">
+						<p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
+							отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+						<p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое
+							количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+							очередь, советуют нас родным и близким.</p>
+					</div>
+					<a class="read-moar" href="#">Читать далее</a>
+				</div>
+				<picture class="about__pic">
+					<source srcset="png/photo1120.png" media="(min-width: 1120px)" />
+					<source srcset="png/photo768.png" media="(min-width: 768px)" />
+					<img class="about__img" src="png/photo320.png" alt="На фото график работы офиса CPS">
+				</picture>
+			</section>
+		</main>
+	</div>
+</body>
+
+</html>
