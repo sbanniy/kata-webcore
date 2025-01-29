@@ -9,21 +9,56 @@
 </head>
 
 <body>
-	<div class="page">
-		<nav class="toolbar page__toolbar page__padding">
-			<ul class="toolbar toolbar__open">
+	<aside class="aside">
+		<nav class="aside__top">
+			<ul class="toolbar toolbar__aside-top">
 				<li>
 					<button class="button">
-						<img class="button__icon" src="svg/burger.svg" alt="Иконка меню">
+						<img class="button__icon" src="svg/cross.svg" alt="Закрыть меню">
 					</button>
 				</li>
-				<li>
-					<a class="logo toolbar__logo" href="#">
-						<img class="logo__img" width="96" height="50" src="svg/logo.svg" alt="Логотип CPS">
+				<li class="aside__logo">
+					<a class="logo" href="#">
+						<img class="logo__img" width="97" height="51" src="svg/logo.svg" alt="Логотип CPS">
 					</a>
 				</li>
+				<li>
+					<button class="button">
+						<img class="button__icon" src="svg/search.svg" alt="Поиск">
+					</button>
+				</li>
 			</ul>
-			<ul class="toolbar toolbar__user">
+		</nav>
+		<nav class="aside__menu">
+			<ul class="menu menu__aside">
+				<li>
+					<a class="aside__link aside__link--active" href="#">Ремонт техники</a>
+				</li>
+				<li>
+					<a class="aside__link" href="#">Услуги и сервисы</a>
+				</li>
+				<li>
+					<a class="aside__link" href="#">Корпоративным клиентам</a>
+				</li>
+				<li>
+					<a class="aside__link" href="#">Продавцам техники</a>
+				</li>
+				<li>
+					<a class="aside__link" href="#">Партнерам</a>
+				</li>
+				<li>
+					<a class="aside__link" href="#">Производителям</a>
+				</li>
+				<li>
+					<a class="aside__link" href="#">Наши сервисные центры</a>
+				</li>
+				<li>
+					<a class="aside__link" href="#">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+		<nav class="aside__bottom">
+			<ul class="toolbar toolbar__aside-bottom">
 				<li>
 					<button class="button">
 						<img class="button__icon" src="svg/call.svg" alt="Заказать звонок">
@@ -40,85 +75,22 @@
 					</button>
 				</li>
 			</ul>
-			<ul class="toolbar toolbar__service">
-				<li>
-					<button class="button">
-						<img class="button__icon" src="svg/repair.svg" alt="Оставить заявку">
-					</button class="button">
-				</li>
-				<li>
-					<button class="button">
-						<img class="button__icon" src="svg/checkstatus.svg" alt="Статус заявки">
-					</button>
-				</li>
-			</ul>
 		</nav>
+		<a class="email aside__email" href="mailto:mail@cps.com">mail@cps.com</a>
+		<a class="phone aside__phone" href="tel:88008908900">8 800 890 8900</a>
+		<ul class="menu lang aside__lang">
+			<li>
+				<a href="#" class="lang__item lang__item--active">ru</a>
+			</li>
+			<li>
+				<a href="#" class="lang__item">en</a>
+			</li>
+			<li>
+				<a href="#" class="lang__item">ch</a>
+			</li>
+		</ul>
 
-		<header class="header">
-			<div class="header__group">
-				<h2 class="title header__title page__padding">Услуги и сервисы</h2>
-				<nav class="header__toolbar page__padding">
-					<ul class="toolbar toolbar__header">
-						<li>
-							<button class="button">
-								<span class="button__caption">Оставить заявку</span>
-								<img class="button__icon" src="svg/repair.svg" alt="Оставить заявку">
-							</button class="button">
-						</li>
-						<li>
-							<button class="button">
-								<span class="button__caption">Статус ремонта</span>
-								<img class="button__icon" src="svg/checkstatus.svg" alt="Статус заявки">
-							</button>
-						</li>
-					</ul>
-				</nav>
-			</div>
-
-			<nav class="header__nav">
-				<ul class="menu header__menu page__padding">
-					<li>
-						<a class="header__link header__link--selected" href="#">Ремонтируемые бренды</a>
-					</li>
-					<li>
-						<a class="header__link" href="#">Дополнительные услуги</a>
-					</li>
-					<li>
-						<a class="header__link" href="#">Цены на услуги</a>
-					</li>
-					<li>
-						<a class="header__link" href="#">Адреса сервисных центров</a>
-					</li>
-					<li>
-						<a class="header__link" href="#">Специальные цены</a>
-					</li>
-					<li>
-						<a class="header__link" href="#">Отзывы</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-
-		<main class="main">
-			<section class="about main__about">
-				<div class="about__article">
-					<div class="about__text">
-						<p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
-							отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-						<p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое
-							количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
-							очередь, советуют нас родным и близким.</p>
-					</div>
-					<a class="read-moar" href="#">Читать далее</a>
-				</div>
-				<picture class="about__pic">
-					<source srcset="png/photo1120.png" media="(min-width: 1120px)" />
-					<source srcset="png/photo768.png" media="(min-width: 768px)" />
-					<img class="about__img" src="png/photo320.png" alt="На фото график работы офиса CPS">
-				</picture>
-			</section>
-		</main>
-	</div>
+	</aside>
 </body>
 
 </html>
