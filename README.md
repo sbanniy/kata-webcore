@@ -1,1 +1,1 @@
-https://sbanniy.github.io/kata-1-3/
+https://sbanniy.github.io/kata-webcore/
